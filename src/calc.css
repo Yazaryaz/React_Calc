@@ -1,0 +1,88 @@
+body{
+    background-color: #8d99ae;
+}
+.tot{
+    width: 75%;
+    max-width: 400px;
+    margin:100px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #2b2d42;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.output{
+    height: 200px;
+    padding: 10px 20px;
+    background-color: #edf2f4;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    border-radius: 10px;
+    
+
+    h2{
+        font-family:Arial, Helvetica, sans-serif;
+        color: #4d5869;
+        font-weight: 500;
+    }
+    input{
+        width: 100%;
+        font-size: 50px;
+        text-align: end;
+        background-color: #edf2f4;
+        border: none;
+        font-weight: 300;
+        outline: none;
+        padding-top: 5px;
+    }
+    
+
+}
+
+
+.clean-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.eq-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.del-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* h1::before{
+    content: '0';
+} */
+
+.input{
+    margin-top: 10px;
+    .row{
+        display: flex;
+        justify-content: end;
+
+    }
+    button{
+        border-radius: 10px;
+        margin: 5px;
+        border: none;
+        outline: none;
+        width: 25%;
+        font-size: 16px;
+        height: 50px;
+        font-family: "Poppins", sans-serif;
+
+    }
+}
+
+h3{
+    text-align: center;
+    margin-top: -60px;
+    font-family: "Poppins", sans-serif;
+    color: #4d5869;
+
+}
